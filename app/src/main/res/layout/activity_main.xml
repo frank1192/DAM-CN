@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <data>
+
+        </data>
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:background="@color/light_purple"
+            tools:context=".MainActivity"
+            android:orientation="vertical"
+            android:gravity="top|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Calculadora de IMC"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <EditText
+                    android:id="@+id/Altura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="ESCRIBA SU ALTURA"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:layout_marginBottom="15dp"
+                    android:id="@+id/Peso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="ESCRIBA SU PESO"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnSumar"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="CALCULAR"
+                    android:textColorHint="@color/white"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/txtResultado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IMC: ... "
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+</layout>

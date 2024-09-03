@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cyan">#FF03DAC5</color>
+    <color name="green">#FF018786</color>
+    <color name="gray">#FF424242</color>
+    <color name="blue">#FF1976D2</color>
+    <color name="orange">#FFFF3D00</color>
+    <color name="red">#FFF44336</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <color name="purple">#FF9C27B0</color>
+    <color name="pink">#FFE91E63</color>
+    <color name="lime">#FFCDDC39</color>
+    <color name="brown">#FF795548</color>
+    <color name="indigo">#FF3F51B5</color>
+    <color name="teal">#FF009688</color>
+    <color name="amber">#FFFFC107</color>
+    <color name="light_purple">#FFE1BEE7</color>
+    <color name="transparent">#00000000</color>
+</resources>
