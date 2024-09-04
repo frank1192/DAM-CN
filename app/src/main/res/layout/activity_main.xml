@@ -15,6 +15,7 @@
             android:gravity="top|center_horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+
             android:layout_marginTop="25dp">
 
                 <TextView
@@ -36,6 +37,7 @@
                     android:layout_marginHorizontal="15dp"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
                     android:ems="10"
                     android:background="@drawable/custom_input"
                     android:drawablePadding="8dp"
@@ -44,8 +46,8 @@
                     android:inputType="numberDecimal"
                     android:drawableStart="@drawable/person"
                     android:hint="Nombre estudiante"
-                    android:textColorHint="@color/backgraund"
-                    android:textColor="@color/gray" />
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/black" />
 
                 <EditText
 
@@ -61,12 +63,12 @@
                     android:paddingEnd="12dp"
                     android:inputType="numberDecimal"
                     android:hint="Nombre curso"
-                    android:textColorHint="@color/backgraund"
-                    android:textColor="@color/gray" />
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/black" />
                 <EditText
 
                     android:id="@+id/Nota1"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="16dp"
                     android:layout_marginHorizontal="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
@@ -77,12 +79,12 @@
                     android:paddingEnd="12dp"
                     android:inputType="numberDecimal"
                     android:hint="Digita nota 1"
-                    android:textColorHint="@color/backgraund"
-                    android:textColor="@color/gray" />
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/black" />
                 <EditText
 
                     android:id="@+id/Nota2"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="16dp"
                     android:layout_marginHorizontal="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
@@ -93,31 +95,42 @@
                     android:paddingEnd="12dp"
                     android:inputType="numberDecimal"
                     android:hint=" Digita nota 2"
-                    android:textColorHint="@color/backgraund"
-                    android:textColor="@color/gray" />
-
-                <Button
-                    android:id="@+id/btnSumar"
-                    android:layout_marginBottom="15dp"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/black" />
+                <CheckBox
+                    android:id="@+id/cbxRemitente"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="CALCULAR"
+                    android:text="El curso ha sido realizado más de una vez?"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/btnCalcularNota"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="18dp"
+                    android:hint="Calcular Nota"
+                    android:textSize="25dp"
                     android:textColorHint="@color/white"
-                    android:textStyle="bold" />
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"/>
 
 
                 <TextView
                     android:id="@+id/txtResultado"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="IMC: ... "
+                    android:text="... "
                     android:textSize="25dp"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:textColor="@color/black"
+                    android:textStyle=""
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="25dp"
+                     />
 
         </LinearLayout>
 </layout>

@@ -5,7 +5,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="cyan">#FF03DAC5</color>
     <color name="green">#FF018786</color>
-    <color name="gray">#FF424242</color>
+    <color name="gray">#3B686868</color>
     <color name="blue">#FF1976D2</color>
     <color name="orange">#FFFF3D00</color>
     <color name="red">#FFF44336</color>
@@ -19,7 +19,7 @@
     <color name="amber">#FFFFC107</color>
     <color name="light_purple">#FFE1BEE7</color>
     <color name="transparent">#00000000</color>
-    <color name="backgraund">#48A8BFFF</color>
+    <color name="backgraund">#7AA8BFFF</color>
     <color name="th">#5CFFFFFF</color>
 
 </resources>
