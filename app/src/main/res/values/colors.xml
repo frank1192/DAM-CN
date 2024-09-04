@@ -19,4 +19,7 @@
     <color name="amber">#FFFFC107</color>
     <color name="light_purple">#FFE1BEE7</color>
     <color name="transparent">#00000000</color>
+    <color name="backgraund">#48A8BFFF</color>
+    <color name="th">#5CFFFFFF</color>
+
 </resources>
