@@ -43,7 +43,6 @@
                     android:drawablePadding="8dp"
                     android:paddingStart="12dp"
                     android:paddingEnd="12dp"
-                    android:inputType="numberDecimal"
                     android:drawableStart="@drawable/person"
                     android:hint="Nombre estudiante"
                     android:textColorHint="@color/gray"
@@ -61,7 +60,6 @@
                     android:drawablePadding="8dp"
                     android:paddingStart="12dp"
                     android:paddingEnd="12dp"
-                    android:inputType="numberDecimal"
                     android:hint="Nombre curso"
                     android:textColorHint="@color/gray"
                     android:textColor="@color/black" />
@@ -84,7 +82,7 @@
                 <EditText
 
                     android:id="@+id/Nota2"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="17dp"
                     android:layout_marginHorizontal="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
@@ -125,9 +123,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="... "
-                    android:textSize="25dp"
+                    android:textSize="18dp"
                     android:textColor="@color/black"
-                    android:textStyle=""
+                    android:textStyle="bold"
                     android:layout_gravity="left"
                     android:layout_marginLeft="25dp"
                      />
